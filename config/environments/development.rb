@@ -26,4 +26,7 @@ DeviseTest::Application.configure do
   # This option may cause significant delays in view rendering with a large
   # number of complex assets.
   config.assets.debug = true
+
+  config.facebook_api = '539218382865749'
+  config.facebook_secret = '805529a97e76d88d8c5c9d9ebf8fb4ad'
 end
